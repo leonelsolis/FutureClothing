@@ -1,0 +1,109 @@
+.container-fluid {
+    background-color: $primary-color;
+  }
+  
+  .boton {
+    color: #bcbcbc;
+    border: #bcbcbc 1px solid;
+
+  
+    &:hover {
+        background-color: #bcbcbc;
+        color: $text-color;
+        border: $text-color 1px solid;
+    }
+  }
+  
+  .title {
+    color: $secondary-color;
+    font-family: $font-family-secondary;
+    font-size: 2rem;
+    text-decoration: none;
+  
+    &:hover {
+        color: $secondary-color;
+    }
+  }
+  
+  .menu {
+        color: $text-color;
+        text-decoration: none;
+        padding: 1.25rem;
+  }
+  
+  .buscador {
+    margin: 0.625rem 0 0.313rem;
+    width: 15.625rem;
+    height: 1.875rem;
+    text-align: center;
+  }
+  
+  .navbar {
+    border: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dropdown button {
+    background-color: transparent;
+    border: transparent;
+  }
+  
+  .contenido {
+    display: none;
+    position: absolute;
+    background-color: $background-color;
+    min-width: 10rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  
+    a {
+      color: $text-color;
+      padding: 0.75rem 1rem;
+      display: block;
+      text-decoration: none;
+  
+      &:hover {
+        background-color: $background-color;
+      }
+    }
+  }
+  
+  section {
+    overflow: hidden;
+    height: 100%;
+    padding: 0.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  article .ropa {
+    width: 12.5rem;
+    padding: 0.625rem;
+  }
+  
+  .productos {
+    margin: 3.125rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    button {
+      width: 9rem;
+      font-size: 1rem;
+      border-radius: 0.4rem;
+      border: solid transparent;
+      background-color: #fff;
+  
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 1.25rem;
+        backdrop-filter: blur(0.2rem);
+      }
+    }
+  }

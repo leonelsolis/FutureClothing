@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../fotos/Fondo.jpg");
+  background-size: cover;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  background-color: #000000;
+  padding: 0.625rem;
+  text-align: center;
+}
+
+.title {
+  color: #a133a3;
+  font-family: "Tektur", sans-serif;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.container-fluid {
+  background-color: #000000;
+}
+
+.container-fluid {
+  background-color: #000000;
+}
+
+.boton {
+  color: #bcbcbc;
+  border: #bcbcbc 1px solid;
+}
+.boton:hover {
+  background-color: #bcbcbc;
+  color: #fff;
+  border: #fff 1px solid;
+}
+
+.title {
+  color: #a133a3;
+  font-family: "Tektur", sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.title:hover {
+  color: #a133a3;
+}
+
+.menu {
+  color: #fff;
+  text-decoration: none;
+  padding: 1.25rem;
+}
+
+.buscador {
+  margin: 0.625rem 0 0.313rem;
+  width: 15.625rem;
+  height: 1.875rem;
+  text-align: center;
+}
+
+.navbar {
+  border: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown button {
+  background-color: transparent;
+  border: transparent;
+}
+
+.contenido {
+  display: none;
+  position: absolute;
+  background-color: #9c9c9c;
+  min-width: 10rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.contenido a {
+  color: #fff;
+  padding: 0.75rem 1rem;
+  display: block;
+  text-decoration: none;
+}
+.contenido a:hover {
+  background-color: #9c9c9c;
+}
+
+section {
+  overflow: hidden;
+  height: 100%;
+  padding: 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+article .ropa {
+  width: 12.5rem;
+  padding: 0.625rem;
+}
+
+.productos {
+  margin: 3.125rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.productos button {
+  width: 9rem;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+  border: solid transparent;
+  background-color: #fff;
+}
+.productos button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 1.25rem;
+  backdrop-filter: blur(0.2rem);
+}
+
+footer {
+  font-size: 1.25rem;
+  background-color: #000000;
+  color: #fff;
+  height: 100%;
+  text-align: center;
+  bottom: 0;
+}
+footer .redesico {
+  width: 1.563rem;
+}
+
+.contenertodo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.caja {
+  height: auto;
+  align-items: center;
+  background-color: #9c9c9c;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+  margin: 0;
+  gap: 1rem;
+}
+.caja h1 {
+  font-size: 1.5rem;
+}
+.caja .inp {
+  width: 15.625rem;
+  padding: 0.5rem;
+}
+.caja .but {
+  width: 12.5rem;
+  padding: 0.5rem;
+}
+.caja input,
+.caja button,
+.caja a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.checkbox-container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.titulos {
+  width: 25%;
+  font-size: 1rem;
+  display: flex;
+}
+
+.info {
+  width: 80%;
+}
+
+.aboutus {
+  margin: 0.625rem;
+  border-radius: 1.25rem;
+  background: rgba(168, 168, 168, 0.4078431373);
+  backdrop-filter: blur(0.2rem);
+}
+
+.carrito {
+  width: 100%;
+  height: 25rem;
+  background-color: rgba(168, 168, 168, 0.4078431373);
+  border-radius: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.625rem;
+  backdrop-filter: blur(0.2rem);
+}
+
+/*# sourceMappingURL=estilos.css.map */
